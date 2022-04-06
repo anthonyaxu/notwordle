@@ -119,7 +119,7 @@ def main():
     if start_game(target_word, words_dict):
         print("Congratulations! The word was {}.".format(target_word))
     else:
-        print("Uh oh you failed. Try again!")
+        print("Uh oh you failed. The word was {}. Better luck next time!".format(target_word))
 
 if __name__ == "__main__":
     main()
